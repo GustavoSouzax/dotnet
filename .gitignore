@@ -1,32 +1,73 @@
-# Prerequisites
-*.d
+dotnet.sln
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Build Folders (Mono and .NET)
+bin/
+obj/
 
-# Precompiled Headers
-*.gch
-*.pch
+# VS Code directories
+.vscode/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Fortran module files
-*.mod
-*.smod
+# Auto-generated files
+*.log
+*.tlog
+*.ide
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# NuGet Packages
+*.nupkg
+**/packages/*
+# Uncomment if necessary
+#!**/packages/build/
+#!**/packages/repositories.config
 
-# Executables
-*.exe
-*.out
-*.app
+# Microsoft Visual Studio 2019/2022
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# Resharper
+*.DotSettings.user
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# DotNet Runtime
+project.lock.json
+project.fragment.lock.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# .NET Core
+project.json
+project.json.lock
+artifacts/
+project.lock.json
+*.lock.json
+
+# IIS Express Logs
+IISExpress/
